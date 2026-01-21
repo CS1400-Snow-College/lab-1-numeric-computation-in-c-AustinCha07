@@ -1,20 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 
-// WorkWithIntegers();
+//WorkWithIntegers();
 OrderPrecedence();
-    int a = 7;
-    int b = 4;
-    int c = 3;
-    int d = (a + b) / c;
-    int e = (a + b) % c;
-    Console.WriteLine($"quotient: {d}");
-    Console.WriteLine($"remainder: {e}");
-    int max = int.MaxValue;
-    int min = int.MinValue;
-    Console.WriteLine($"The range of integers is {min} to {max}");
-    int what = max + 3;
-    Console.WriteLine($"An example of overflow: {what}");
 
 void WorkWithIntegers()
 {
@@ -22,7 +10,6 @@ void WorkWithIntegers()
     int b = 6;
     int c = a + b;
     Console.WriteLine(c);
-
 
     // subtraction
     c = a - b;
@@ -57,3 +44,39 @@ void OrderPrecedence()
     int h = (e + f) / g;
     Console.WriteLine(h);
 }
+
+// Explore integer precision and limits
+int a = 7;
+int b = 4;
+int c = 3;
+int d = (a + b) / c;
+int e = (a + b) % c;
+Console.WriteLine($"quotient: {d}");
+Console.WriteLine($"remainder: {e}");
+
+int max = int.MaxValue;
+int min = int.MinValue;
+Console.WriteLine($"The range of integers is {min} to {max}");
+
+int what = max + 3;
+Console.WriteLine($"An example of overflow: {what}");
+
+// Work with the double type
+double da = 5;
+double db = 4;
+double dc = 2;
+double dd = (da + db) / dc;
+Console.WriteLine(dd);
+
+double da2 = 19;
+double db2 = 23;
+double dc2 = 8;
+double dd2 = (da2 + db2) / dc2;
+Console.WriteLine(dd2);
+
+double maxDouble = double.MaxValue;
+double minDouble = double.MinValue;
+Console.WriteLine($"The range of double is {minDouble} to {maxDouble}");
+
+double third = 1.0 / 3.0;
+Console.WriteLine(third);
