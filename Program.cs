@@ -45,6 +45,8 @@ void OrderPrecedence()
     Console.WriteLine(h);
 }
 
+void WorkwithDecimals()
+{
 // Explore integer precision and limits
 int a = 7;
 int b = 4;
@@ -80,3 +82,22 @@ Console.WriteLine($"The range of double is {minDouble} to {maxDouble}");
 
 double third = 1.0 / 3.0;
 Console.WriteLine(third);
+}
+
+// Work with decimal type
+decimal min = decimal.MinValue;
+decimal max = decimal.MaxValue;
+Console.WriteLine($"The range of the decimal type is {min} to {max}");
+
+double a = 1.0;
+double b = 3.0;
+Console.WriteLine(a / b);
+
+decimal c = 1.0M;
+decimal d = 3.0M;
+Console.WriteLine(c / d);
+
+//Challenege 
+double radius = 2.50;
+double area = radius * radius * Math.PI;
+Console.WriteLine(area);
