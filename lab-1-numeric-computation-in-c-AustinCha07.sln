@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab-1-numeric-computation-in-c-AustinCha07", "lab-1-numeric-computation-in-c-AustinCha07.csproj", "{CF06A895-71E0-3EA3-24B4-6A02C7178DD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF06A895-71E0-3EA3-24B4-6A02C7178DD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF06A895-71E0-3EA3-24B4-6A02C7178DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF06A895-71E0-3EA3-24B4-6A02C7178DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF06A895-71E0-3EA3-24B4-6A02C7178DD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E03995B1-448C-4B6E-83F0-A9F2A32C8524}
+	EndGlobalSection
+EndGlobal
